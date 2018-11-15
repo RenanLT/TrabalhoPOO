@@ -1,0 +1,19 @@
+
+public class Item extends Produto {
+	
+	private static int contador = 0;
+	private int sequencial;
+	private int qtdItem;
+	
+	public Item(int codArmazem, String nomeArmazem, String endArmazem, String descArmazem, int codProduto,
+			String nomeProduto, double valorProduto, String descProduto, String sitProduto, int qtdProduto,
+			int sequencial, int qtdItem) {
+		super(codArmazem, nomeArmazem, endArmazem, descArmazem, codProduto, nomeProduto, valorProduto, descProduto,
+				sitProduto, qtdProduto);
+		
+		this.sequencial = ++contador;
+		this.qtdItem = qtdItem;
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+import corejava.Console;
+
+public class Principal {
+	{
+		public static void main(String args[])
+		{
+			final int TAM = Console.readInt("Informe o tamanho da lista: ");
+			
+			ArrayList <Cliente> listaDeClientes = new ArrayList <Cliente> (TAM);
+			
+			boolean continua = true
+		}
+	}
+}

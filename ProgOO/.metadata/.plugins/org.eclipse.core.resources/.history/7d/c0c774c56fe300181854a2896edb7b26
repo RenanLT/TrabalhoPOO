@@ -1,0 +1,24 @@
+
+public class Fornecedor {
+	
+	private String CNPJForn;
+	private String razaoSocialForn;
+	private String nomeFornecedor;
+	private String contatoForn;
+	private String enderecoForn;
+	private String descFornecedor;
+	
+	public Fornecedor(String CNPJForn, String razaoSocialForn, String nomeFornecedor, String contatoForn,
+			String enderecoForn, String descFornecedor) 
+	{
+	
+		this.CNPJForn = CNPJForn;
+		this.razaoSocialForn = razaoSocialForn;
+		this.nomeFornecedor = nomeFornecedor;
+		this.contatoForn = contatoForn;
+		this.enderecoForn = enderecoForn;
+		this.descFornecedor = descFornecedor;
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+
+public class Pagamento extends Pedido {
+	
+	private String descPagamento;
+	
+	public Pagamento(int pedidoCodigo, double valor, String data, String nome, String pedSituacao, String nomePagamento, String descPagamento) 
+	{
+		super(pedidoCodigo, data, valor, pedSituacao);
+		
+		
+	}
+
+		
+}

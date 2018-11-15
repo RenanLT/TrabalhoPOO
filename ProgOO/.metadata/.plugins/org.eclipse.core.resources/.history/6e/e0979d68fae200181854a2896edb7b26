@@ -1,0 +1,29 @@
+
+public class Pagamento extends Pedido {
+	
+	
+	private String codPagamento;
+	private String nomePagamento;
+	private String descPagamento;
+	
+	public Pagamento(int pedidoCodigo, String data, double valor, String pedSituacao, String codPagamento, String nomePagamento, String descPagamento) 
+	{
+		super(pedidoCodigo, data, valor, pedSituacao);
+		
+		this.codPagamento = codPagamento;
+		this.nomePagamento = nomePagamento;
+		this.descPagamento = descPagamento;
+	}
+
+	public String getcodPagamento() 
+	{
+		return codPagamento;
+	}
+
+	public void setcodPagamento(String codPagamento) 
+	{
+		this.codPagamento = codPagamento;
+	}
+
+		
+}

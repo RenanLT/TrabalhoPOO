@@ -1,0 +1,16 @@
+
+public class Pedido extends Cliente{
+	
+	private int codigo;
+	private String data;
+	private double valor;
+	private String situacao;
+	
+	public Pedido(int codigo, int matricula, String data, double valor, String situacao)
+	{
+		super(matricula);
+		
+		this.
+	}
+	
+}

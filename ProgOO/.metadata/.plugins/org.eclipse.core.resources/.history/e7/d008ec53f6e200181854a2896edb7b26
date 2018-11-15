@@ -1,0 +1,13 @@
+
+public class Pagamento extends Pedido {
+
+	private String codDescricao;
+	
+	public Pagamento(String nome, int matricula, String contato, String endereco, String situacao, int codigo,String data, double valor, String pedSituacao) {
+		super(nome, matricula, contato, endereco, situacao, codigo, data, valor, pedSituacao);
+		
+		this.codDescricao = codDescricao;
+	}
+
+		
+}

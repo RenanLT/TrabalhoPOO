@@ -1,0 +1,8 @@
+
+public class Item extends Produto {
+	
+	private int sequencial;
+	private int qtdItem;
+	
+	public Item()
+}

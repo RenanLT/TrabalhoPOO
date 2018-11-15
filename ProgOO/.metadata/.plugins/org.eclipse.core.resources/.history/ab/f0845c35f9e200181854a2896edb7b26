@@ -1,0 +1,23 @@
+
+public class Pagamento extends Pedido {
+
+	private String codPagamento;
+	
+	public Pagamento(String codPagamento, ) {
+		super();
+		
+		this.codPagamento = codPagamento;
+	}
+
+	public String getcodPagamento() 
+	{
+		return codPagamento;
+	}
+
+	public void setcodPagamento(String codPagamento) 
+	{
+		this.codPagamento = codPagamento;
+	}
+
+		
+}
